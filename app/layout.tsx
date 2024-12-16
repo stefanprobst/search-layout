@@ -15,9 +15,9 @@ export default function RootLayout({
     <html className="h-full" lang="en">
       <body className="h-full">
         <div className="h-full grid grid-rows-[auto_1fr_auto]">
-					<header>Header</header>
+					<header className="bg-green-200">Header</header>
 					{children}
-					<footer>Footer</footer>
+					<footer className="bg-green-200">Footer</footer>
 				</div>
       </body>
     </html>
